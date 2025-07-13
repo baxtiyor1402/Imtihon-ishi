@@ -1,0 +1,474 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: white;
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   z-index: 1;
+  
+}
+.container{
+width: 1440px;   
+
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.navbar{
+   
+    height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-align: center;
+ padding-right: 200px;
+ padding-left: 200px;
+ 
+
+}
+.heads{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+   
+}
+ul li a{
+    text-decoration: none;
+}
+.Home{
+    color: black;
+    
+}
+.head{
+    color: gray;
+}
+
+#hero{
+    background-image: url("./Images/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.title{
+    padding-top: 104px;
+    font-size: 58px;
+    line-height: 80px;
+    
+    padding-left: 200px;
+}
+.kichik{
+    padding-top: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #737373;
+    padding-left: 200px;
+}
+
+.buttonlar  {
+    padding-top: 35px;
+    padding-bottom: 188px;
+    padding-left: 200px;
+    transition: 0.5s;
+   
+}
+.btn1 , .btn2{
+    color: #00A0C1;
+    border: 1px solid #00A0C1;
+    width: 185px;
+    height: 48px;
+    border-radius: 37px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.btn2{
+    width: 154px;
+}
+.buttonlar button{
+    transition: 1s;
+
+}
+.buttonlar button:hover{
+    background-color: #FFA62B;
+    color: white ;
+    border: 0;
+    
+}
+
+.stats3{
+    width: 1050px;
+    height: 210px;
+    display: flex;
+    gap: 30px;
+    margin-top: -100px;
+    
+    
+}
+
+.bola{
+    width: 330px;
+    height: 210px;
+    padding-top: 35px;
+    box-shadow: 2px 2px 2px 2px gray;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    transition: 1s;
+   
+}
+
+.bola:hover{
+    background-color: #0ad6ff;
+    color: white;
+}
+#about{
+     height: 526px;
+    background-color: #FAFAFA;
+padding-top: 290px;
+
+}
+.about3{
+   
+}
+.us{
+    
+text-align: center ;
+font-size: 40px;
+line-height: 57px;
+}
+.matn{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+}
+
+.cardlar{
+    display: flex;
+   padding-top: 50px;
+   padding-left: 200px;
+   gap: 30px;
+}
+.card{
+    width: 230px;
+    height: 209px;
+background-color: #FFFFFF;
+text-align: center;
+padding-top: 32px;
+
+}
+
+.K{
+    width: 53;
+height: 57;
+angle: 0 deg;
+opacity: 1;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.case{
+    color: #737373;
+}
+.kardlar{
+    display: flex;
+   padding-top: 50px;
+   padding-left: 200px;
+   gap: 30px;
+}
+.kard{
+    width: 238px;
+    height: 321px;
+background-color: #FFFFFF;
+text-align: center;
+padding-top: 32px;
+
+}
+
+
+#advice{
+    
+    padding-top: 290px;
+    padding-bottom: 90px;
+    background-color: #FAFAFA;
+}
+.sar{
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.gap{
+    padding-top: 15px;
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+}
+.rasm{
+    padding-top: 30px;
+}
+.ras{
+    padding-top: 8px;
+}
+
+.bosh{
+    padding-top: 100px;
+    font-size: 40px;
+    line-height: 57px;
+text-align: center;
+}
+.tobe{
+    padding-top: 15px;
+    color: #737373;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.dad{
+    padding-top: 100px;
+    
+    gap: 120px;
+    display: flex;
+}
+
+.boy1{
+    padding-left: 200px;
+}
+.boy2{
+    width: 333px;
+height: 418px;
+}
+.pic{
+    color: #737373;
+    padding-top: 10px;
+}
+.most{
+    font-size: 40px;
+    
+}
+.soz{
+    display: flex;
+    padding-top: 30px;
+}
+.foto{
+    width: 32px;
+    height: 32px;
+}
+.h2{
+    font-size: 16px;
+    line-height: 24px;
+}
+.thing{
+    color: #737373;
+    padding-left: 30px;
+}
+.joy{
+    background-color: #FAFAFA;
+    height: 404px;
+    margin-top: 157px;
+}
+.allrasm{
+   padding-top: 70.5px;
+    padding-left: 195px;
+   font-size: xx-large;
+
+}
+.nima{
+padding-left: 200px;
+padding-top: 70px;
+}
+.footcha{
+    width: 1050px;
+    height: 124px;
+    background-color: #16697A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.email{
+    background-color: white;
+    border: white;
+    cursor: col-resize;
+    width: 450px;
+    height: 58px;
+    border-radius: 5px;
+
+
+}
+.btnnn{
+    background-color: #FFA62B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 117px;
+    height: 58px;
+    border-radius: 5px;
+    
+}
+.h1{
+    color: white;
+}
+
+#contact{
+    background-color: #F3F3F3;
+    padding-bottom: 208px;
+}
+
+.cartlar{
+    display: flex;
+   padding-top: 50px;
+   padding-left: 200px;
+   gap: 30px;
+}
+.cart{
+    width: 327px;
+    height: 333px;
+background-color: #FFFFFF;
+text-align: center;
+align-items: center;
+padding-top: 32px;
+transition: 1s;
+
+
+}
+
+.C{
+  
+font-size: 14px;
+padding-top: 15px;
+padding-bottom: 10px;
+
+}
+.kase{
+    color: black;
+    padding-top: 15px;
+    font-size: 16px;
+    padding-bottom: 15px;
+
+}
+.submit{
+   
+    width: 160px;
+   height: 44px;
+    color: #FFA62B;
+    border: 1px solid #FFA62B;
+    border-radius: 5px ;
+    background-color: white;
+}
+.cart:hover{
+    background-color: #252B42;
+    color: white;
+
+}
+.cart button:hover{
+    background-color: transparent;
+}
+.cart .kase:hover{
+    color: white;
+}
+.sus{
+    text-align: center ;
+font-size: 40px;
+line-height: 57px;
+padding-top: 165px;
+}
+#form{
+    background-color: #FAFAFA;
+
+}
+.formda{
+    height: 751px;
+}
+.name{
+    width: 1050px;
+    height: 50px;
+   
+}
+.name1{
+     padding-top: 100px;
+    padding-left: 195px;
+    padding-right: 195px;
+}
+
+.name2,.name3,.name4,.name5{
+    padding-top: 20px;
+      padding-left: 195px;
+    padding-right: 195px;
+}
+.nami{
+  width: 1050px;
+    height: 156px;
+}
+.bnt{
+    width: 163px;
+    height: 58px;
+    border-radius: 5px;
+    background-color: #FFA62B;
+    color: white;
+    transition: 1s;
+}
+
+.nnt{
+    padding-top: 59px;
+    padding-left: 638px;
+    cursor: pointer;
+}
+.bnt:hover{
+    background-color: aqua;
+    
+}
+footer{
+     background-color: #16697A;
+}
+.footer{
+    padding-left: 195px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 307px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  
+    
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+}
+ .footer a{
+    text-decoration: none;
+    color: white;
+    
+ }
+
+ .joycha{
+   
+    height: 68px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+ }
+ .made{
+    font-size: 14px;
+    color: gray;
+    line-height: 24px;
+    padding-left: 195px;
+ }
+.bolacha2{
+    padding-right: 195px;
+}
+.bolacha1,.bolacha2{
+    
+}
